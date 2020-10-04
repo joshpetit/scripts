@@ -1,0 +1,3 @@
+#!/bin/sh
+var=$(xclip -selection clipboard)
+kdeconnect-handler $var

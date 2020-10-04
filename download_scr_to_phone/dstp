@@ -1,0 +1,4 @@
+# !bin/bash
+file=$(ls -Art ~/Pictures/| grep Screenshot\ from\ | tail -n 1)
+kdeconnect-handler ~/Pictures/"$file"
+
